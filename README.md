@@ -15,5 +15,5 @@ gcc -Wall test-launch.c -o test-launch $(pkg-config --cflags --libs gstreamer-1.
 Expose a test screen as a JPEG RTP:
 
 ```
-./test-launch "videotestsrc ! jpegenc ! rtpjpegpay name=pay0 pt=96" 
+./test-launch "videotestsrc ! jpegenc ! rtpjpegpay name=pay0 pt=26" 
 ```
